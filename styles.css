@@ -1,0 +1,67 @@
+
+body { 
+    background-color: black;
+    color: white; 
+}
+
+.pageHeader {
+    display: flex; 
+    align-items: center; 
+}
+
+.pageHeader__slogan {
+    margin-right: 20px; 
+}
+
+.pageHeader__img-slogan {
+    width: 270%; 
+    height: auto; 
+    margin-bottom: 35px;   
+}
+
+.pageHeader__title h1 {
+    color: white; 
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.supportingText {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.supportingText__explanation {
+    margin-bottom: 30px; 
+}
+
+.supportingText__participation{
+    margin-bottom: 30px;
+}
+
+.linkList__lselect ul li {
+    position: relative;
+    list-style: disc;
+    padding: 6px;  
+}
+
+.linkList__lselect ul li a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.linkList__lselect ul li::after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 50%; 
+    border-bottom: 2px dotted white; 
+}
+
+.linkList__archives {
+    padding-left: 2em;
+}
+
+.linkList__larchives ul li a{
+    color: white;
+}
